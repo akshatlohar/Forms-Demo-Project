@@ -1,0 +1,29 @@
+.contact{
+    margin:auto;
+    width: 100%;
+    background-color:  rgba(201, 58, 58, 0.322);
+    height: auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+    margin-bottom: 0px;
+    
+}
+.box{
+    width:40%;
+    margin : 20px;
+    padding:40px;
+    ul{
+        color: rgb(230, 227, 142);
+        li{
+            margin:10px;
+        }
+        li:hover{
+            color:whitesmoke;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+}
+

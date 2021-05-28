@@ -1,0 +1,63 @@
+.form{
+    margin-top: 20px;
+
+h2  {
+    background-color: #d0c7cb;
+    margin-left: 79px;
+    border-radius: 10px;
+    width: 35rem;
+    text-align: center;
+    color: #310a1c;
+    animation-name: form-head;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+        animation-delay: 2s;
+    
+}
+@keyframes form-head {
+    from {
+        width: 36rem;
+    }
+
+    to {
+        width: 65rem;
+    }
+    
+}
+.form-grp{
+    margin:1rem 25px 1rem ;
+    padding :6px;
+    height: min-content; 
+    width: 90%;
+    display: flex;
+
+.item{
+    color: #9a8a15;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    // background-image: url(../assets/images/background-form.jpg);
+    width: 50%;
+    height: min-content;
+    background-image: linear-gradient(#080111b2,#1f061daf);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;;
+    margin-left: 25px;
+    padding: 1px;
+}
+}
+input,select,option{
+    background-color:rgb(253, 212, 124);
+}
+::-webkit-input-placeholder { 
+    font-size: small;
+    color: rgb(43, 4, 80);
+    opacity: 0.6;
+  }
+  textarea {
+    background-color: #29172834; /* This ruins default border */
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 10px;
+    color:white ;
+  }
+}

@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding : 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+@import 'navbar';
+@import 'maincontainer';
+@import 'form';
+@import 'other-form services';
+@import 'contact_us';
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background: url('../assets/images/page-bg.png') no-repeat fixed ;
+}
+#inbetween-heads{
+    margin-top:30px;
+    margin-bottom: 20px;
+        background-color: #d0c7cb;
+        border-radius: 10px;
+        width: 35rem;
+        text-align: center;
+        color: #310a1c;
+        animation-name: form-head;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+            animation-delay: 2s;
+        
+    }
+    @keyframes form-head {
+        from {
+            width: 36rem;
+        }
+    
+        to {
+            width: 72rem;
+        }
+        
+    }
+    .likeusto{
+        margin:-10px;
+        background-color: black;
+        display: block;
+    }
+    footer{
+        background: black;
+        color: white;
+    }

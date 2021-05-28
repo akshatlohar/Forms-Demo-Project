@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo Page</title>
+    <link rel="stylesheet" href="./main styles/styles.css">
+    <link rel="stylesheet" href="./main styles/phone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbr">
+        <li class="navli1"><a href="#">Home</a></li>
+        <li class="navli2"><a href="#msg">About FormsForYou</a></li>
+        <li class="navli3"><a href="#inbetween-heads">More Customized Forms</a></li>
+        <li class="navli4"><a href="#con">Contact Us</a></li>
+        <span id="navli5">
+            <input id="searchbox" type="search" placeholder="search other forms">
+        </span>
+        <!-- <li class="navli5"><a href="#"><img src="./assets/magnifying-glass.svg" alt=""></a></li> -->
+    </div>
+    <!-- end of navbar -->
+    <div class="message" id="msg">
+        <h3>FormsForYou</h3>
+        <p style="text-align: center;">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias consequatur
+            sint ex maxime eveniet eos
+            magnam aliquid <br>repellat mollitia tempore expedita nostrum ab autem quibusdam, et laudantium enim
+            officiis<br>
+            necessitatibus cupiditate provident incidunt. Minima!"</p>
+    </div>
+    <div class="form">
+        <h2>YOUR FIRST BASIC FORM</h2>
+        <div class="form-grp">
+            <div class="item" id="item-1">
+                <form action="backend.php">
+                    <h5 style="text-align: center;margin: 20px;text-decoration: underline;">Please Enter Employee
+                        Details</h5>
+                    <div style="margin-top: 10px; padding:6px;">
+                        FullName :<input type="text" name="myName" id="name" placeholder=" your name goes here ...">
+                        Role: <input type="text" name="myRole" placeholder=" your designation">
+                        <hr>
+
+                        Email: <input type="email" name="myEmail" placeholder="xyz@gmail.com">
+                        &nbsp;&nbsp;Date: <input type="date" name="myDate">
+                        <hr>
+                        Bonus: <input type="number" name="myBonus" placeholder="only in numbers..">
+                        <hr>
+                        Gender: &nbsp;&nbsp;Male <input type="radio" name="myGender"> Female <input type="radio"
+                            name="myGender">
+                        Other <input type="radio" name="myGender">
+                        <hr>
+                        &nbspAre you eligible?: <input type="checkbox" name="myEligibility">
+                        <hr>
+                        <div style="display: block;text-align: center;">
+                            <input type="reset" value="Reset this section now">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="item" id="item-2">
+                <form action="backend.php">
+                    <h5 style="text-align: center;margin: 10px;text-decoration: underline;"> More Details</h5>
+                    <div style="margin-top: 30px; padding:6px;">
+                        Origin :<input type="text" name="myName" id="name">
+                        <input type="radio" name="myRole"> Have Passport
+                    </div>
+                    <hr>
+                    <div style="margin-top: 20px;">
+                        <label for="country">Which Country:</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="UK">UK</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <div>
+                        Reason for travel: <textarea style="margin-left: 25px;padding: 1px;" name="myText" cols="51"
+                            rows="5"></textarea>
+                        <div style="display: block;text-align: center;margin: 10px;">
+                            <input type="reset" value="Reset this section now">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <h2 id="inbetween-heads">SOME CUSTOMIZED DESIGNS</h2>
+    </div>
+    <div class="other-forms">
+        <div class="gallery">
+            <a target="_blank" href="../Ayushi Printers Blog/1200px-Emblem_of_India.svg.png">
+                <img src="./assets/images/Form 1.jfif" alt="">
+            </a>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="./assets/images/form 2.jfif" alt="">
+            </a>
+
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="./assets/images/Form 3.jfif">
+                <img src="./assets/images/Form 3.jfif" alt="">
+            </a>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="img./assets/images/Form 4.jfif">
+                <img src="./assets/images/Form 4.jfif" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <h2 id="inbetween-heads">CONTACT AND DETAILS</h2>
+    </div>
+    <div class="contact" id="con">
+        <div class="box" id="box1">
+            <ul style="list-style: none;">
+                <li>
+                    <h5>FormsForYou</h5>
+                </li>
+                <li>Sign up</li>
+                <li>Create Form</li>
+                <li>MyForms</li>
+                <li>Our Pricing</li>
+                <li>Enterprises</li>
+            </ul>
+        </div>
+        <div class="box" id="box2">
+            <ul style="list-style: none;">
+                <li>
+                    <h5>MarketPlace</h5>
+                </li>
+                <li>Templates</li>
+                <li>Form Themes</li>
+                <li>Form Widgets</li>
+                <li>Form Themes</li>
+                <li>Form Widgets</li>
+            </ul>
+        </div>
+        <div class="box" id="box3">
+            <ul style="list-style: none;">
+                <li>
+                    <h5>Support</h5>
+                </li>
+                <li>Help</li>
+                <li>Webinars</li>
+                <li>Report Abuse</li>
+            </ul>
+        </div>
+        <div class="box" id="box4">
+            <ul style="list-style: none;">
+                <li>
+                    <h5>Company</h5>
+                </li>
+                <li>Media Kit</li>
+                <li>In the news</li>
+                <li>Newsletters</li>
+                <li>Partnerships</li>
+                <li>Blog</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="likeusto">
+            <p style="color: ivory;margin-top: 10px;display: block;text-align: center;">Or if you would like us to
+                contact you<br>
+                <a target="_blank" class="btn btn-dark " style="margin:10px;">Click Here</a>
+            </p>
+        </div>
+        <div style="text-align: center;margin-top: 3px;">
+            Copyright &copy; AKSHAT LOHAR - UI dev (9165812729)
+        </div>
+    </footer>
+</body>
+
+</html>

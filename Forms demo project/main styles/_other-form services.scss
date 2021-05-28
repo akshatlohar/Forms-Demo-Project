@@ -1,0 +1,28 @@
+.other-forms{
+    display: flex;
+    justify-content: space-evenly;
+    // background: url(../assets/images/background-form.jpg)  no-repeat;
+    background-color: #0c021b8f;
+    height: min-content;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 20%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  desc {
+    color:red;
+    padding: 15px;
+    text-align: center;
+  }
